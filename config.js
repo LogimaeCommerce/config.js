@@ -24,11 +24,11 @@ module.exports = {
   },
 
   magento: {
-    url: process.env.MAGENTO_URL || 'https://production.logima.io/rest/',
-    consumerKey: process.env.MAGENTO_CONSUMER_KEY || 'consumerKey',
-    consumerSecret: process.env.MAGENTO_CONSUMER_SECRET || 'consumerSecret',
-    accessToken: process.env.MAGENTO_ACCESS_TOKEN || 'accessToken',
-    accessTokenSecret: process.env.MAGENTO_ACCESS_TOKEN_SECRET || 'accessTokenSecret',
+    url: process.env.MAGENTO_URL || 'https://cmsdomain.io/rest/',
+    consumerKey: process.env.MAGENTO_CONSUMER_KEY || 'm076n7s9u9fto67ki9ejhgw5rdfxmk0k',
+    consumerSecret: process.env.MAGENTO_CONSUMER_SECRET || 'u7vyhw29n5ltc4wqv3hri5x6ojyo05oj',
+    accessToken: process.env.MAGENTO_ACCESS_TOKEN || 'tyfmsujl06ylb7ik09tbc2obgizuwcvb',
+    accessTokenSecret: process.env.MAGENTO_ACCESS_TOKEN_SECRET || '1ee5qj02kieayvuyz88apqmbds0sy52d',
     storeId: process.env.MAGENTO_STORE_ID || 1,
     currencyCode: process.env.MAGENTO_CURRENCY_CODE || 'USD'
   },
