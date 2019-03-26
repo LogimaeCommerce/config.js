@@ -25,10 +25,10 @@ module.exports = {
 
   magento: {
     url: process.env.MAGENTO_URL || 'https://cmsdomain.io/rest/',
-    consumerKey: process.env.MAGENTO_CONSUMER_KEY || 'm076n7s9u9fto67ki9ejhgw5rdfxmk0k',
-    consumerSecret: process.env.MAGENTO_CONSUMER_SECRET || 'u7vyhw29n5ltc4wqv3hri5x6ojyo05oj',
-    accessToken: process.env.MAGENTO_ACCESS_TOKEN || 'tyfmsujl06ylb7ik09tbc2obgizuwcvb',
-    accessTokenSecret: process.env.MAGENTO_ACCESS_TOKEN_SECRET || '1ee5qj02kieayvuyz88apqmbds0sy52d',
+    consumerKey: process.env.MAGENTO_CONSUMER_KEY || 'byv3730rhoulpopcq64don8ukb8lf2gq',
+    consumerSecret: process.env.MAGENTO_CONSUMER_SECRET || 'u9q4fcobv7vfx9td80oupa6uhexc27rb',
+    accessToken: process.env.MAGENTO_ACCESS_TOKEN || '040xx3qy7s0j28o3q0exrfop579cy20m',
+    accessTokenSecret: process.env.MAGENTO_ACCESS_TOKEN_SECRET || '7qunl3p505rubmr7u1ijt7odyialnih9',
     storeId: process.env.MAGENTO_STORE_ID || 1,
     currencyCode: process.env.MAGENTO_CURRENCY_CODE || 'USD'
   },
@@ -40,8 +40,8 @@ module.exports = {
 
   product: {
     expandConfigurableFilters: ['manufacturer'],
-    synchronizeCatalogSpecialPrices: process.env.PRODUCTS_SPECIAL_PRICES || false,
-    renderCatalogRegularPrices: process.env.PRODUCTS_RENDER_PRICES || false,
+    synchronizeCatalogSpecialPrices: process.env.PRODUCTS_SPECIAL_PRICES || true,
+    renderCatalogRegularPrices: process.env.PRODUCTS_RENDER_PRICES || true,
     excludeDisabledProducts: process.env.PRODUCTS_EXCLUDE_DISABLED || false
   },
 
